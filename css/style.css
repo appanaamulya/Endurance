@@ -1750,7 +1750,8 @@ textarea.form-control {
   .form-row < .col,
   .form-row > [class*="col-"] {
     padding-right: 5px;
-    padding-left: 5px; }
+    padding-left:  5px;
+   }
 
 .form-check {
   position: relative;
@@ -8728,13 +8729,15 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #fcd307;
-    border: 1px solid #fcd307;
-    color: #fff; }
+    background: #fc8307;
+    border: 1px solid #fc9507;
+    width: 100px;
+    color: #fff;
+}
     .btn.btn-primary:hover {
-      border: 1px solid #fcd307;
+      border: 1px solid #fca607;
       background: transparent;
-      color: #fcd307; }
+      color: #0e0d0c; }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #fcd307;
       background: transparent;
